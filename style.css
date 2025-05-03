@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #7FFF00;
+    padding: 20px 0;
+}
+
+.main-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #0DFF9E;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 86px;
+    margin-right: 90px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+/* Hero section */
+.hero {
+    background-color: #7FFF00;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-buttons {
+    margin-top: 30px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 5px solid #FF3D00;
+}
+
+.btn-primary {
+    background-color: #FF1493;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #FF1493;
+    color: white;
+}
+
+.hero-image img {
+    max-width: 300px;
+}
+
+/* Dish of week section */
+.dish-of-week {
+    background-color: #FFD700;
+    padding: 50px 20px;
+}
+
+.dish-of-week h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.dishes {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.dish-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.dish-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.dish-card h3 {
+    margin: 10px 0;
+}
+
+.priceC {
+    display: block;
+    font-weight: bold;
+    color: #FF1493;
+    margin-top: 15px;
+}
+
+.priceA {
+    display: block;
+    font-weight: bold;
+    color: #FF1493;
+    margin-top: 60px;
+}
+
+.priceB {
+    display: block;
+    font-weight: bold;
+    color: #FF1493;
+    margin-top: 15px;
+}
+
+/* Promotions section */
+.promotions {
+    background-color: #0000FF;
+    padding: 50px 20px;
+}
+
+.promotions h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.promo-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.promo-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* About us section */
+.about-us {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(https://learn.logikaschool.com/uploads/student/1732923/681123200aef2.png);
+}
+
+.about-us h2 {
+    margin-bottom: 30px;
+    color: white;
+}
+
+.about-us p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #7FFF00;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.map {
+    flex: 0.5;
+    height: 200px;
+    width: 100px;
+    background: #7FFF00;
+}
+
+.footer-logo img {
+    height: 120px;
+    width: 120px;
+} 
+
+.wids {
+    width: 200px;
+}
+
+
+.hero-content img {
+    width: 200px;
+    height: 150px;
+}
+
+.hgh {
+    text-align: center;
+}
+
+
+.nav-links .active {
+    font-weight: 700;
+    text-decoration: underline;
+}
